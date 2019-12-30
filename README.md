@@ -1,4 +1,6 @@
 # ttf2cp437
+[![crates.io](https://img.shields.io/crates/v/ttf2cp437.svg)](https://crates.io/crates/ttf2cp437)
+[![license](https://img.shields.io/crates/l/ttf2cp437)](https://github.com/hamaluik/ttf2cp437/blob/master/LICENSE)
 
 Converts a `.ttf` file into a square [Codepage 437](https://en.wikipedia.org/wiki/Code_page_437) font atlas. Especially handy for converting fonts from [The Oldschool PC Font Resource](https://int10h.org/oldschool-pc-fonts/) to images for use in roguelikes.
 
