@@ -1,0 +1,16 @@
+[package]
+name = "ttf2cp437"
+version = "1.0.0"
+authors = ["Kenton Hamaluik <kenton@hamaluik.ca>"]
+edition = "2018"
+description = "Converts a `.ttf` file into a square Codepage 437 font atlas."
+repository = "https://github.com/hamaluik/mkbook"
+readme = "README.md"
+keywords = ["cp437", "convert"]
+categories = ["command-line-utilities"]
+license = "Apache-2.0"
+
+[dependencies]
+rusttype = "0.8"
+image = "0.22"
+clap = "2.33"
